@@ -16,10 +16,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link"href="#">Beranda</a>
-          <a class="nav-link" href="#">Tentang Produk</a>
-          <a class="nav-link" href="#">Poster Produk</a>
-          <a class="nav-link" href="#">Video Produk</a>
+          <a class="nav-link"href="#top">Beranda</a>
+          <a class="nav-link" href="#tentang">Tentang Produk</a>
+          <a class="nav-link" href="#gallery">Gallery Produk</a>
+          <a class="nav-link" href="#anggota">Anggota Kelompok</a>
         </div>
       </div>
     </div>
@@ -32,8 +32,8 @@
     <div class="row">
       <div class="col-md-6">
         <p class="hero-text">CHEESE ROLL</p>
-        <p class="para">Kelompok 1</p>
-        <a href="#"><img src="Img/shopping-cart.png" alt="shop" class="shop">Beli Sekarang</a>
+        <p class="para">Rp.5.000</p>
+        <a href="https://wa.link/z1kqyp"><img src="Img/shopping-cart.png" alt="shop" class="shop">Beli Sekarang</a>
       </div>
       <div class="col-md-6 text-center">
         <img class="cheese" src="Img/cheeseroll.jpg" alt="cheese" srcset="" width="500">
@@ -56,7 +56,7 @@
       
       <!-- Kolom untuk Teks (Kanan) -->
       <div class="col-md-8">
-        <p>Nikmati kelezatan Cheese Roll, camilan istimewa dengan lapisan pastry yang renyah berpadu dengan isian keju premium! Dibuat dengan bahan berkualitas tinggi dan dipanggang hingga sempurna, Cheese Roll kami adalah pilihan terbaik untuk menemani waktu santai Anda. Setiap gigitan menghadirkan perpaduan rasa gurih dan manis yang sempurna, membuat Anda ingin mencobanya lagi dan lagi. </p>
+        <p class="pp">Nikmati kelezatan Cheese Roll, camilan istimewa dengan lapisan pastry yang renyah berpadu dengan isian keju premium! Dibuat dengan bahan berkualitas tinggi dan dipanggang hingga sempurna, Cheese Roll kami adalah pilihan terbaik untuk menemani waktu santai Anda. Setiap gigitan menghadirkan perpaduan rasa gurih dan manis yang sempurna, membuat Anda ingin mencobanya lagi dan lagi. </p>
       </div>
     </div>
   </div>
@@ -64,8 +64,8 @@
  </section>
  
  
- <!-- Poster Produk -->
- <section id="produk-segment">
+ <!-- Gallery Produk -->
+ <section id="gallery">
   <div class="container">
     <h1 class="title text-center mb-4">Gallery</h1>
     <div class="row">
@@ -86,10 +86,21 @@
       </div>
     </div>
   </section>
- 
- 
- 
- 
+<!-- Video -->
+ <!-- Video Section -->
+<section id="video">
+  <div class="container">
+    <h1 class="title text-center mb-4">Video Tentang Cheese Roll</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="video-container">
+          <iframe width="100%" height="480" src="Img/viewcheese.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Anggota -->
  <section id="anggota">
   <div class="container">
@@ -124,20 +135,22 @@
         </div>
         <div class="col-md-4 footer-box">
           <img class="micro" src="Img/micro.png" alt="" width="200px">
-          <p>Made By the Programming Division</p>
         </div>
         <div class="col-md-4 footer-box">
           <img class="satas" src="Img/satas.png" alt="" width="200px">
         </div>
       </div>
+      <hr>
+      <p class="copyright">Made By the Programming Division</p>
     </div>
-
-
-
-
   </section>
  <!-- Dropdown -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Smooth Scroll -->
+ <script src="smooth-scroll.js"></script>
+ <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 
 </body>
 </html>
