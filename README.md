@@ -2,8 +2,8 @@
 
 Kami menghadirkan Cheese Roll, camilan yang menggoda dengan lapisan pastry renyah yang dipadu sempurna dengan keju premium di dalamnya. Setiap gigitannya memberikan rasa gurih yang memanjakan lidah, menjadikannya teman sempurna untuk menemani waktu santai Anda. Nikmati kelezatan Cheese Roll kami dengan harga terjangkau hanya Rp.5.000
 
-*Special thanks to ChatGPT & Stack Overflow for helping me solve bugs.*
-*Special thanks to Boostrap*
+*Special thanks to ChatGPT & Stack Overflow for helping me solve bugs.* <br>
+*Special thanks to Boostrap for providing navbar and layout adjustment*
 
 ## Anggota Kelompok
 
