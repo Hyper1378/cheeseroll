@@ -75,10 +75,6 @@ img {
     font-weight: 500;
 }
      
-#hero a
-{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 .shop
 {
     width: 20px;
@@ -90,6 +86,7 @@ img {
 
 #hero a
 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
     text-decoration: none;
 }
@@ -222,12 +219,14 @@ img {
 {
     padding: 20px;
 }
-.footer-box img
+
+#footer .footer-box 
 {
-    width: 200px;
-    margin-bottom: 20px;
-    margin-left: 53px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
 
 .micro
 {
@@ -247,7 +246,20 @@ hr
 }
 .copyright
 {
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 0;
     padding-bottom: 30px;
+    text-align: center;
+}
+.source
+{
+    font-style: italic;
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
