@@ -4,6 +4,8 @@ margin: 0;
 padding: 0;
 }
 
+
+/* Navigation */
 #navbar
 {
     position: sticky;
@@ -73,7 +75,66 @@ padding: 0;
     text-decoration: none;
 }
 
-.cheese img
+.cheese
 {
-    width: 100px;
+    border-radius: 40px;
+    width: 450px;
+    margin-bottom: 10px;
+}
+
+.wave1
+{
+    width: 100%;
+}
+
+#tentang img
+{
+    border-radius: 50px;
+    margin-left: 0px;
+    margin-top: 25px;
+    max-width: 100%;
+}
+
+.title
+{
+    text-align: center;
+}
+
+.title::before
+{
+    content: '';
+    background: #FFC14D;
+    height: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+    margin-bottom: auto;
+}
+
+.col-md-8
+{
+    margin-left:0px;
+    margin-top: 35px;
+    text-align: start;
+    font-size: 30px;
+}
+
+#anggota
+{
+    background-color: #f8f9fa;
+}
+
+.ags
+{
+    margin-left: 55px;
+    font-size: 40px;
+    margin-top: 8%;
+    font-weight: 600;
+}
+
+#anggota ol li
+{
+    margin-left: 40px;
 }
