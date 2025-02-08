@@ -1,0 +1,77 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+#navbar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar
+{
+    background-image: linear-gradient(to right, #FFC14D, #FFAF19);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 65px;
+    width: 89px;
+    padding-left: 20px;
+}
+.navbar-brand
+{
+    color: #FFEDCC;
+    text-transform: underline;
+}
+
+.navbar-bar li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav a
+{   
+    color: #FFEDCC !important;
+    font-weight: 600;
+    float: right;
+    text-align: right;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/* Hero Text */
+#hero
+{
+    background-image: linear-gradient(to right, #FFC14D, #FFAF19);
+    color: #FFEDCC;
+    padding-top: 5%;
+}
+.hero-text
+{
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: 200px;
+}
+.para
+{
+    margin-left: 200px;
+}
+                                 
+.shop
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 200px;
+    text-size-adjust: 100;
+    text-decoration: none;
+}
+
+#hero a
+{
+    text-decoration: none;
+}
