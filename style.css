@@ -87,6 +87,7 @@ padding: 0;
     width: 100%;
 }
 
+/* Tentang produk */
 #tentang img
 {
     border-radius: 50px;
@@ -137,4 +138,48 @@ padding: 0;
 #anggota ol li
 {
     margin-left: 40px;
+}
+
+
+/* Footer */
+#footer
+{
+    background-image: linear-gradient(to right, #FFC14D, #FFAF19);
+    color: #FFEDCC
+}
+.footer-img
+{
+    width: 110%;
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img
+{
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.micro
+{
+    max-width: 160px;
+    margin-top: 20px;
+}
+
+.satas
+{
+   max-width: 185px;
+   margin-top: 13px;
+}
+
+
+#footer p 
+{
+    font-size: 18px;
+    color: #FFEDCC;
+    margin-top: 30px;
+    margin-left: 13px;
+    font-weight: bold;
 }
