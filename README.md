@@ -14,7 +14,8 @@ Kami menghadirkan Cheese Roll, camilan yang menggoda dengan lapisan pastry renya
 5. Muhammad Fardan Ramadhan	(X-7,	Photography)
 6. Zessicane Tyasamesi	(X-6,	Photography)
 7. Devina Maulida	(X-12,	Photography)
-8. Raihan Naufal Nafis	(X-2,	Programming)
-9. Rakha Putra Kusuma Wardana	(X-6,	Programming)
-10. Haikal Muhammad Rafi	(X-12,	Programming)
+8. Muhammad Galuh Amara	(X-2,	Photography)
+9. Raihan Naufal Nafis	(X-2,	Programming)
+10. Rakha Putra Kusuma Wardana	(X-6,	Programming)
+11. Haikal Muhammad Rafi	(X-12,	Programming)
 
